@@ -49,7 +49,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2014 year in review.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IUB-8I-aL3">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="227" y="151" width="157" height="157"/>
+                                    <rect key="frame" x="235" y="156" width="149" height="152"/>
                                 </variation>
                             </imageView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdm-rk-kaa">
@@ -58,7 +58,16 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="28" y="77" width="356" height="71"/>
+                                    <rect key="frame" x="28" y="114" width="356" height="39"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chw-od-LdT">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="28" y="72" width="348" height="29"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -70,6 +79,7 @@
                                 <exclude reference="6WF-Jt-PBz"/>
                                 <exclude reference="IUB-8I-aL3"/>
                                 <exclude reference="wdm-rk-kaa"/>
+                                <exclude reference="chw-od-LdT"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="6WF-Jt-PBz"/>
                                 <include reference="IUB-8I-aL3"/>
                                 <include reference="wdm-rk-kaa"/>
+                                <include reference="chw-od-LdT"/>
                             </mask>
                         </variation>
                     </view>
@@ -89,6 +100,7 @@
                         <outlet property="EnterNameTextField" destination="xfV-qP-P99" id="gMH-Z5-I8t"/>
                         <outlet property="mailButton" destination="6WF-Jt-PBz" id="OMn-uP-Ve0"/>
                         <outlet property="messageLabel" destination="wdm-rk-kaa" id="OJa-ke-lcB"/>
+                        <outlet property="nameLabel" destination="chw-od-LdT" id="r4k-3F-gWo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
